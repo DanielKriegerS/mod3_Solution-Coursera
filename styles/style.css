@@ -1,0 +1,43 @@
+    .navbar, .row {
+        background-color: #777777;   
+    }
+
+    .container span {
+        font-weight: bold;    
+    }
+
+    .menu-header {
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center-text {
+        display: block;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .buttonDiv {
+        border: 1px solid;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+    }
+   
+    #menu-nav {
+        text-align: center;
+    }
+    
+   #menu-nav li {
+    border-bottom: 1px solid black;
+    font-size: 20px;
+   }
+
+   .navbar-toggler:not(.collapsed) {
+    background-color: white;
+   }
+
+
